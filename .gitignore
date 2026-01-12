@@ -1,0 +1,17 @@
+# Claude Code 技能文件（不需要部署）
+.claude/
+
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.log
