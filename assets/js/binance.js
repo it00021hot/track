@@ -112,10 +112,7 @@ const Binance = {
                 const quoteQty = parseFloat(trade.quoteQty); // USDT 金额
                 const time = trade.time;
 
-                // 只保留大额交易
-                if (quoteQty < this.minUSD) {
-                    continue;
-                }
+                // 不设置最低金额门槛，获取所有成交用于排序
 
                 // 计算原生代币数量
                 const amountNative = qty;
